@@ -1,3 +1,91 @@
 ## 02
 
-Initial page
+Official Page
+https://ohmyz.sh/#install
+
+Started going to the official page. There, at the bottom, I found 
+"
+Install oh-my-zsh now
+Oh My Zsh is installed by running one of the following commands in your terminal. 
+You can install this via the command-line with either curl or wget.
+"
+
+The first problem: what is "curl" or "wget".
+As a Ubuntu user, I only knew the command "apt" for installation. 
+So I did a little search. The result is at the end of this file
+
+Before running things I didn't know exactly what would do, I went back to the main page.
+Right under the installation block it is written:
+"
+Not ready to jump right in? We’re not offended; it’s never a bad idea to read the documentation first.
+"
+Clicking on the word "documentation" lead me to another page
+(https://github.com/ohmyzsh/ohmyzsh/wiki)
+
+Here there seemed to have many information that I would like to check after installing zsh. 
+So, for the moment I bookmarked the page and focused on its first 2 lines:
+"
+Welcome to the Oh My Zsh wiki
+  If you don't have zsh installed, see Installing Zsh.
+"
+Clicking on the word "Installing ZSH" would take me to another page 
+(https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+
+Here I found easy to understand installation steps. 
+There are instructions for installation on different platforms (Ubuntu among them)
+I read and followed all the instructions. 
+However, it didn't work out in the first try. 
+There was no error. But loggin out and going back in didn't make the change.
+
+Between the steps 3 and 4 there is an observation:
+"
+Note that this will not work if Zsh is not in your authorized shells list (/etc/shells) or 
+if you don't have permission to use chsh. If that's the case you'll need to use a different procedure.
+"
+Clicking in "you'll need to use a different procedure" lead me to a google search result page. 
+The first result was
+(https://askubuntu.com/questions/131823/how-to-make-zsh-the-default-shell)
+
+Here I might open a parenthesis.
+When things don't work the way they were expecte to be, there could be many possible causes. 
+This is called Troubleshooting. 
+We could compare this with like going to the doctor. 
+Just by saying "I feel bad" will not allow the doctor to judge what you have and what we can do to solve that. 
+The patient (in this case, you) have to note and say in details what symptoms he/she is having. 
+Searching the answer in the internet is the same. 
+There will be many different answers and possible solutions. 
+But you have to filter which solution would apply to your specific case. 
+Unfortunately, this is something only you can do (it's your computer). 
+But not necessarily, you have to do it alone (that's why the forum is open to queestions. 
+There are people in the community really willing to help)
+
+Going back to the result of the search. 
+They suggest you to check some things and even offer work around (some of them a little not recommended, but that works)
+Using the command
+grep zsh /etc/shells
+The result I got was
+/bin/bash/
+/usr/bin/zsh
+This is the list of shells that my system recognizes and its location. 
+So I have the "bash" (which is the default on Ubuntu) and I have zsh (which is at the location /usr/bin/)
+One of the suggestions said to specically use the location of zsh.
+So instead of using the command written on the wiki page
+chsh -s $(which zsh)
+I used 
+chsh -s /usr/bin/zsh
+
+That solved the problem. When I logged in again, the zsh shell was loaded. 
+This will be treated on the next section
+
+
+////////////////////////////////////////////////////////////////
+First configuration
+
+
+
+
+
+////////////////////////////////////////////////////////////////
+CURL
+It's an abbreviation of "Client URL". 
+With this command you can access the content of a web page (see its HTML, download files, among others)
