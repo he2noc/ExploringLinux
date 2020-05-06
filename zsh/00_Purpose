@@ -1,0 +1,20 @@
+# File: 00_Purpose
+# Objective: To document the initial motivation for installing zsh and what it is expected to achieve
+
+Motivation:
+I started spend more time in the command line (for many different reasons). 
+I would like it to me more friendly to work with. 
+You can open, visualize and edit a file in the command line with some programs (vi, nano, etc). @more.examples
+As I work with programming, I miss some of the highlight features (using different color to mark specific text). 
+It would help a lot to have this feature.
+
+Many times I also have to move around between directories (folders). 
+The usual way is by the command "cd dir_name" (to enter the specific directory) and "cd .." (to go back to an upper directory). 
+Moving back and forth becomes tedious (specially if you have not-so-good directory names). 
+So an easier navigation style would be very welcomed. 
+
+In my opinion, customizing one of your tools is one of most fun things you can do in Linux. 
+As I started working more with the command line, I would like to make it a unique and personal experience. 
+
+While looking for a solution, I found zsh and decide to give it a try. 
+From the start, all information indicates that it is not just "install and go". 
