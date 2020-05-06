@@ -1,7 +1,11 @@
-## 02
+## The installation process
+
+First things first. I got interested in the oh-my-zsh framework. Which works in the zsh shell. 
+That means we have 2 different things. 
+Meaning that we ultimately have 2 different installations to do. Just keeo this in mind.
 
 Official Page
-https://ohmyz.sh/#install
+https://ohmyz.sh/
 
 Started going to the official page. There, at the bottom, I found 
 "
@@ -30,6 +34,10 @@ Welcome to the Oh My Zsh wiki
 "
 Clicking on the word "Installing ZSH" would take me to another page 
 (https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+ZSH installation
+Remembering that ZSH is the shell. This is a pre-requesite step before installing oh-my-zhs.
 
 Here I found easy to understand installation steps. 
 There are instructions for installation on different platforms (Ubuntu among them)
@@ -75,25 +83,19 @@ I used
 chsh -s /usr/bin/zsh
 
 That solved the problem. When I logged in again, the zsh shell was loaded. 
-This will be treated on the next section
 
-
-////////////////////////////////////////////////////////////////
-Basic settings
 When first prompted the shell presents a configuration step. 
 If you don't know what you're doing, just go with the default one (you can edit it later).
 If you want or are curious about, navigate through the menu and select the initial settings.
-
-And that's it... Right? 
-Probably not. 
-Successfully instaled the zsh shell but, out of the box, it doesn't comes with the features I wanted to. 
-So now we have to go to the next phase: the customization.
-
+Now that the shell is running, we can go on and install the oh-my-zhs framwork
 
 ////////////////////////////////////////////////////////////////
-Themes 
+Installing oh-my-zsh
+Now we go back to the install page of oh-my-zhs (https://ohmyz.sh/#install)
 
-
+You can copy and paste the command line that is written on the site and hit enter to start the installation.
+During the process, it was prompted to me wether I wanted to change the default shell to zsh
+Just answered yes and the shell already loaded with the new look
 
 
 
