@@ -79,7 +79,19 @@ This will be treated on the next section
 
 
 ////////////////////////////////////////////////////////////////
-First configuration
+Basic settings
+When first prompted the shell presents a configuration step. 
+If you don't know what you're doing, just go with the default one (you can edit it later).
+If you want or are curious about, navigate through the menu and select the initial settings.
+
+And that's it... Right? 
+Probably not. 
+Successfully instaled the zsh shell but, out of the box, it doesn't comes with the features I wanted to. 
+So now we have to go to the next phase: the customization.
+
+
+////////////////////////////////////////////////////////////////
+Themes 
 
 
 
