@@ -98,8 +98,40 @@ During the process, it was prompted to me wether I wanted to change the default 
 Just answered yes and the shell already loaded with the new look
 
 
+////////////////////////////////////////////////////////////////
+Configuring oh-my-zsh
+Out of the box, oh-my-zsh doesn't activate many features, including some basic bash features. 
+I think you don't have to worry which these features are. 
+If you use one of them, you will immediately notice and you can configure it then. 
+
+oh-my-zsh allows for Plugins and Themes. 
+Unfortunatelly, there are several of them and would be practically impossible to explain how to go through everyone.
+So I'll have to excuse myself and ask to everyone to search for and follow the specific instructions
+for the installations of your plugins/themes of interested. 
+For further instructions, you can check the official wiki page (https://github.com/ohmyzsh/ohmyzsh/wiki)
+
+To tell the truth, I don't like to end this explication like this. 
+It feels like giving up so close to the end line. 
+But that's the limnit I found on this step-by-step.
+Any further comments would be to specific for a Theme/Plugin and might not apply for others.
+So it is best to go direct to your interest source and continue from there. 
+
 
 ////////////////////////////////////////////////////////////////
 CURL
 It's an abbreviation of "Client URL". 
-With this command you can access the content of a web page (see its HTML, download files, among others)
+"curl is a tool to transfer data from or to a server, using one of the supported protocols"
+(retrieved from https://curl.haxx.se/docs/manpage.html)
+
+WGET
+Is also a command to download files from a server over a network.
+"wget has been designed for robustness over slow or unstable network connections; 
+if a download fails due to a network problem, it will keep retrying until the whole file has been retrieved"
+(retrieved from https://www.computerhope.com/unix/wget.htm)
+
+Useful links for comparison
+https://daniel.haxx.se/docs/curl-vs-wget.html (08/05/20 - dd/mm/yy)
+https://unix.stackexchange.com/questions/47434/what-is-the-difference-between-curl-and-wget(08/05/20 - dd/mm/yy)
+
+
+
